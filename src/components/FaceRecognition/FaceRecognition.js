@@ -5,7 +5,7 @@ import "./FaceRecognition.css";
 function FaceRecognition({ input, box }) {
   return (
     <div className="center ma">
-      <div className="absolute mt2">
+      <div className="mt2">
         <img id="inputimage" src={input} alt="" width="500px" height={"auto"} />
         <div
           style={{
